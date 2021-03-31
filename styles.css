@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
 .exercise-heading {
   font-size: 50px;
   font-weight: normal;
@@ -110,7 +112,6 @@
   margin-bottom: 0;
 }
 /* Hedri Styling */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
 #hedri-a {
   color: #ffff !important;

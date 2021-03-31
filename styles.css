@@ -1,10 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
-.exercise-heading {
-  font-size: 50px;
-  font-weight: normal;
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
 /* stylelint-disable selector-list-comma-newline-after */
 
 .blog-header {
@@ -113,9 +122,10 @@
 }
 /* Hedri Styling */
 
-#hedri-a {
-  color: #ffff !important;
+body > nav:first-of-type a {
+  color: #f9f9f9 !important;
 }
+
 h2 {
   font-family: Roboto !important;
   font-weight: 200;

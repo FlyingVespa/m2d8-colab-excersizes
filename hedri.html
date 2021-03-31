@@ -14,6 +14,15 @@
     <title>Hello, world!</title>
 </head>
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+h2{
+    font-family: Roboto;
+    font-weight: 200;
+    text-align: center;
+    font-size: 3rem;
+}
     table {
         border-collapse: collapse;
 
@@ -22,36 +31,14 @@
 
 
     table td:nth-child(1) {
-        background-color: lime;
+        background-color: green;
 
-    }
-
-    tbody {
-        background-color: magenta;
-        border: maroon 5px;
     }
 
     table td:nth-child(2) {
-        background-color: lightskyblue;
+        background-color: blue;
     }
 
-    table tr:nth-last-child(1) td:nth-last-child(1) {
-        background-color: yellow;
-    }
-
-    table tr:nth-last-child(2) td:nth-last-child(1) {
-        background-color: goldenrod;
-    }
-
-    table tr:nth-last-child(3) td:nth-last-child(1) {
-        background-color: lightyellow;
-    }
-
-    table tr:last-child td:first-child {
-        border-bottom-left-radius: 10px;
-
-
-    }
 
     table {
         height:400px;
@@ -59,6 +46,8 @@
         margin-bottom: 2em;
         border-spacing: 0pt;
         border-collapse: separate;
+        table-layout: fixed;
+         word-wrap: break-word;
     }
 
     table tr:first-child th:first-child,
@@ -71,7 +60,8 @@
     }
 
     table tr:first-child th:last-child,
-    table tr:first-child td:last-child {
+    table tr:first-child td:last-child 
+    {   background-color: lightyellow;
         border-top-right-radius: 15px;
         border-top: 2px solid black;
         border-right: 2px solid black;
@@ -91,11 +81,13 @@
         border-bottom-right-radius: 15px;
         border-right: 2px solid black;
         border-bottom: 2px solid black;
+        background-color: goldenrod;
     }
+    
 
     table tr:nth-child(2) th:last-child,
     table tr:nth-child(2) td:last-child {
-
+        background-color: yellow;
         border-right: 2px solid black;
 
     }
@@ -111,7 +103,7 @@
     table tr:last-child th:nth-child(2),
     table tr:last-child td:nth-child(2) {
         border-bottom: 2px solid black;
-       
+        vertical-align: bottom;
         color: #FFFF;
        
     }
@@ -122,34 +114,33 @@
 
   
 </style>
-
 <body>
-
-
     <div class="container">
 
+
+        <h2>Exercise 1</h2>
         <table>
             <tbody>
                 <tr>
-                    <td colspan="3">1</td>
-                    <td colspan="1" >Otto</td>
-                    <td colspan="2">3</td>
+                    <td style="width: 50%">1</td>
+                    <td style="width: 12.5%" >Otto</td>
+                    <td style="width: 25%">3</td>
                 </tr>
                 <tr>
-                    <td colspan="3">1</td>
-                    <td colspan="1">Otto</td>
-                    <td colspan="2">3</td>
+                    <td style="width: 50%">1</td>
+                    <td style="width: 12.5%">Otto</td>
+                    <td style="width: 25%">3</td>
                 </tr>
                 <tr>
-                    <td colspan="3">1</td>
-                    <td colspan="1"><strong>2</strong></td>
-                    <td colspan="2">3</td>
+                    <td style="width: 50%">1</td>
+                    <td colspan="width: 12.5%"><strong>2aaaaaaaaaaaaaaaaaaaaaa</strong></td>
+                    <td style="width: 25%">3</td>
                 </tr>
             </tbody>
         </table>
     </div>
 <div class="container">
-    
+    <h2>Exercise 2</h2>
     <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header">

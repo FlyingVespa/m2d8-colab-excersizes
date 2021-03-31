@@ -15,22 +15,30 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styling.css" />
 
-    <title>Hello, world!</title>
+    <title>M2D8, world!</title>
 
     <script src="jquery.js"></script>
-    <script>
-      $(function () {
-        $("#includedContent").load("hedri.html");
-        $("#sajedianContent").load("Sajedian.html");
-      });
-    </script>
+    <script></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
-    <div id="hedriContent"></div>
-    <div id="sajedianContent"></div>
+    <iframe
+      src="./hedri.html"
+      onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"
+    ></iframe>
+    <iframe
+      src="./hedri.html"
+      onload="this.before((this.contentDocument.body||this.contentDocument).children[1]);this.remove()"
+    ></iframe>
+    <iframe
+      src="./mohammed.html"
+      onload="this.before((this.contentDocument.body||this.contentDocument).children[1]);this.remove()"
+    ></iframe>
+    <iframe
+      src="./mohammed.html"
+      onload="this.before((this.contentDocument.body||this.contentDocument).children[1]);this.remove()"
+    ></iframe>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -42,7 +50,5 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
-
-    -->
   </body>
 </html>

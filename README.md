@@ -4,7 +4,7 @@ _We had to replicate the image provided into a site._
 
 #### Execersises were divided up as follows:
 - 1-2 Hedri (inlcuding nav)
-- 3-5 Mohammed 
+- 3-5 Mohammadamin
 ### Comparisons
 
 [Original]<img src="https://github.com/FlyingVespa/m2d8-colab-excersizes/blob/main/Image%20to%20copy.png" alt="alt text" height="600"> 
